@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CovidWorldSumaryPublisher
+Bundle-SymbolicName: sa.assignment.covidWorldSumaryPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sa.assignment.covidworldsumarypublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: sa.assignment.covidWorldSumaryPublisher
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: json-1.8.jar
+Export-Package: sa.assignment.covidworldsumarypublisher
